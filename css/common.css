@@ -1,0 +1,39 @@
+@charset utf-8;
+
+	*{ -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+	body,ul,ol,dl,dd,dt,li,a,h1,h2,h3,h4,h5,h6,from,table,tr,td,th,textarea,input,button,select,p{ padding:0; margin:0;}
+	img{ border:0;}
+	body{ font-size:12px; font-family:Arial; color:#000; line-height:1; -webkit-text-size-adjust:none; background:#fff;}
+	ul,li{ list-style:none;}
+	a{ color:#000; text-decoration:none;}
+	i,em{ font-style:normal;}
+	b{ font-weight:normal;}
+	table{ border-spacing:0;}
+	input,button,select,textarea{ outline:none; font-size:12px; font-family:Arial;}
+	.fl{ float:left;}
+	.fr{ float:right;}
+	.wrap{ width:100%; min-width:320px; max-width:640px; margin:0 auto; position:relative;}
+	.wrap:after{display:table;content:"";line-height:0;clear:both;}
+	.box_border{ border:1px solid #cbced2; overflow:hidden; border-radius:3px;}
+	
+	.clearfix{*zoom:1;}
+	.clearfix:before,
+	.clearfix:after{display:table;content:"";line-height:0;}
+	.clearfix:after{clear:both;}
+	
+	.rating_small_star{margin-right:5px;vertical-align:middle;display:inline-block;}
+	.rating_small_star i{width:75px; height:15px; background:url(../images/star_small.png) repeat-x bottom;display:block;float:left;}
+	.rating_small_star i i{background-position:0 0;}
+	
+	.scroll_box {overflow:hidden;margin-top:15px;}
+	.scroll_box h3 {font-size:14px; color:#000000;padding:15px 10px;}
+	.scroll_box .scroll_content {position:relative;padding:15px 10px;border-top:1px solid #cbced2;overflow:hidden;}
+	.scroll_box .scroll_content .scroll_list_box{/*overflow-x:scroll;*/}
+	.scroll_box .scroll_content .scroll_list_box::-webkit-scrollbar{display:none;}
+	.scroll_box .scroll_content .scroll_list_box::-moz-scrollbar{display:none;}
+	.scroll_box .scroll_content ul{display:block;}
+	.scroll_box .scroll_content li{border:1px solid #f3f6f8;width:132px;float:left;margin-right:15px;text-align:center;}
+	.scroll_box .scroll_content li div{margin-bottom:10px;}
+	.scroll_box .scroll_content li .image img{ width:130px;}
+	.scroll_box .scroll_content li .price {font-size:12px; font-weight:bold; color:#ff6600;}
+	.scroll_box .scroll_content ul .review {font-size:12px;color:#a2a7ab;}
